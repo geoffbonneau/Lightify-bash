@@ -1,0 +1,6 @@
+{
+  "name": "Lightify-bash",
+  "tagline": "Some bash scripts that interface with the Osram Lightify API",
+  "body": "# Lightify-bash\r\nSome bash scripts that interface with the Osram Lightify API\r\n\r\nUseful if you dont want to use the Lightify app.\r\n\r\nDepends on jq to parse the authorization token available here: https://stedolan.github.io/jq/\r\n\r\nLightify API reference: https://us.lightify-api.org/lightify/\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
