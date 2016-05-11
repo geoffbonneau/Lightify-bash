@@ -5,4 +5,7 @@ Authtoken=$(curl -s -H 'Content-Type: application/json' -X POST -d '{"username" 
 
 curl -s -H 'Content-Type: application/json' -H "authorization:$Authtoken" -X GET  https://us.lightify-api.org/lightify/services/device/all/set?onoff=0
 
+#logout/destroy Authtoken
+curl -s -H 'Content-Type: application/json' -H "authorization:$Authtoken" -X DELETE  https://us.lightify-api.org/lightify/services/session
+
 exit 0
